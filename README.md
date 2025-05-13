@@ -1,7 +1,7 @@
 # Working Project 
 It still lacks the deleting and auto updating history
 
-### How to use?
+## How to use?
 
   - Download the 4 files necessary for the program to work.
   - Execute the main.py file after downloading the required files.
@@ -13,13 +13,12 @@ It still lacks the deleting and auto updating history
   - To prevent this, ensure you either execute it with Admin permissions or open all 4 files in VSCode and execute it from there.
 
 
-## Description (repeated from the main README.md)
+## Description 
 
 A Workout Tracking "app" run from the terminal, it should allow to view, update, and register the date of a routine.
 How?
 
-I'm planing to make it using SQLite and Python i don't want a GUI since apart from the fact i don't feel like learning how to make one, i just feel like is kinda cooler if it is used without a GUI
-Using experience:
+Made using SQLite and Python, Does'nt have a GUI works purely from the terminal.
 
 The way the user(me) is going to interact with the "app" should go something along the lines of:
 
