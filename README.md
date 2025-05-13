@@ -1,7 +1,9 @@
 # 🚀 Release v1.0.0 – Initial Terminal-Based Workout Tracker
 
 Status: Working
+
 Stage: Alpha
+
 Known Limitations: No delete functionality in the History Table, Expect bugs with unexpected input.
 
 ## 🧰 Features
@@ -19,13 +21,14 @@ Known Limitations: No delete functionality in the History Table, Expect bugs wit
 ##  How to Use
 ### ✅ Quick Install
 
-    Go to the Releases tab
+1. Go to the [Releases tab](https://github.com/0JK0/Workout_Tracker/releases/tag/Release)
 
-    Download the executable for your OS (.exe for Windows)
+2. Download the executable for your OS (only Linux rn)
 
-    Open a terminal in the download folder and run the file
+3. Open a terminal in the download folder and run the file
 
-### 🛠 Manual Install
+### 🛠 Manual Install 
+**(Only Option If Windows User!!)**
 
     Download all 4 necessary .py files
 
