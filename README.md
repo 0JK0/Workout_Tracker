@@ -1,50 +1,65 @@
-# Working Project 
-It still lacks the deleting and auto updating history
+# 🚀 Release v1.0.0 – Initial Terminal-Based Workout Tracker
 
-## How to use?
-### Quick Install
-  - Go to [Releases](#https://github.com/0JK0/Workout_Tracker/releases)
-  - Donwload the executable for your operative system (.exe for Windows)
-  - Use your terminal to execute the script.
+Status: Working
+Stage: Alpha
+Known Limitations: No delete functionality in the History Table, Expect bugs with unexpected input.
 
-### Manual Install
-  - Download the 4 files necessary for the program to work.
-  - Execute the main.py file after downloading the required files.
-  - The main classes are divided into separate modules for simplicity and organization.
-  - The program is controlled through the TUI (Terminal User Interface)
-  - Be cautious as there are still many bugs that might appear if the inputs are not as expected.
-  - The program attempts to create a new file locally for the database.
-  - If the program cannot create a new file, it will break.
-  - To prevent this, ensure you either execute it with Admin permissions or open all 4 files in VSCode and execute it from there.
+## 🧰 Features
+
+    Terminal-based Workout Tracker App built with Python and SQLite
+
+    Browse and manage user pre-defined workout routines
+
+    Saves routine history with date and time spent
+
+    TUI-based (Terminal User Interface)
+
+    Modular design
+
+##  How to Use
+### ✅ Quick Install
+
+    Go to the Releases tab
+
+    Download the executable for your OS (.exe for Windows)
+
+    Open a terminal in the download folder and run the file
+
+### 🛠 Manual Install
+
+    Download all 4 necessary .py files
+
+    Run main.py in your terminal or VSCode
+
+    Admin permission might be needed (to allow local database creation)
+
+Note: If the script can’t create a new local .db file, it will crash. Use VSCode or run with elevated permissions to avoid issues.
+
+## 📖 Usage Flow
+
+    Start the app → Choose an option:
+
+        1. Show Routines
+
+        2. Show Workout History
+
+    If Show Routines:
+
+        Select a routine
+
+        Choose: View, Use, or Update
+
+            View: displays full routine
+
+            Use: interactive workout with rest timers, saves history
+
+            Update: edit sets/reps/workouts, then return to View
+
+    If Show Workout History:
+
+        Displays your workout logs
+
+        Choose to Quit or Return to Menu
 
 
-## Description 
-
-A Workout Tracking "app" run from the terminal, it should allow to view, update, and register the date of a routine.
-
-Made using SQLite and Python, Does'nt have a GUI works purely from the terminal.
-
-## Usage Timeline
-
-The way the user(me) is going to interact with the "app" should go something along the lines of:
-
-    Ask for options (1.Show all available Routines 2.Show Workout History)
-
-if option 1 is chosen:
-
-    Display routines table
-
-    Chose the routine to use
-
-    display the table for that specific routine then ask (1.View 2.Use 3.Update)
-
-        View mode: shows the table again
-
-        Use mode: display 1 by 1 each workout (row), it will display a counter to count sets, after it reaches the amount of sets it will give a resting timer and move to the next workout(row). When it finishes it should display the amount of time taken and save: the routine done, the date and the time it took. In another table finally show the History table and ask if they want to (1.Quit 2.Go back to menu)
-
-        Update mode: Allow to change amount of sets,reps or workouts in said routine then just go to view mode.
-
-if option 2 is chosen:
-
-    Show the History table and ask for (1.Quit 2. Go back to menu)
-
+This release serves as a functional prototype of a terminal-native fitness tracking tool. Perfect for personal use, hacking on features, or extending into a GUI-based app later.
