@@ -2,11 +2,16 @@
 It still lacks the deleting and auto updating history
 
 ## How to use?
+### Quick Install
+  - Go to [Releases](#https://github.com/0JK0/Workout_Tracker/releases)
+  - Donwload the executable for your operative system (.exe for Windows)
+  - Use your terminal to execute the script.
 
+### Manual Install
   - Download the 4 files necessary for the program to work.
   - Execute the main.py file after downloading the required files.
   - The main classes are divided into separate modules for simplicity and organization.
-  - The program is controlled through the "GUI" that appears in the terminal.
+  - The program is controlled through the TUI (Terminal User Interface)
   - Be cautious as there are still many bugs that might appear if the inputs are not as expected.
   - The program attempts to create a new file locally for the database.
   - If the program cannot create a new file, it will break.
@@ -16,9 +21,10 @@ It still lacks the deleting and auto updating history
 ## Description 
 
 A Workout Tracking "app" run from the terminal, it should allow to view, update, and register the date of a routine.
-How?
 
 Made using SQLite and Python, Does'nt have a GUI works purely from the terminal.
+
+## Usage Timeline
 
 The way the user(me) is going to interact with the "app" should go something along the lines of:
 
